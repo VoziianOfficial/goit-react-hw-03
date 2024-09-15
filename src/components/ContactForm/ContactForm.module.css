@@ -1,0 +1,45 @@
+.formInput {
+  width: 100%;
+  max-width: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.formBtn {
+  padding: 10px 20px;
+  background-color: #ff00a2;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  max-width: 150px;
+  margin-left: 33px;
+}
+
+.formBtn:hover {
+  background-color: #6e0743;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 3px solid magenta;
+  width: 230px;
+  height: 200px;
+}
+
+.p {
+  padding-left: 10px;
+}
