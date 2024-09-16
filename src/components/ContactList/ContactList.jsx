@@ -2,15 +2,17 @@ import React from "react";
 import Contact from "../Contact/Contact";
 import s from "./contactList.module.css";
 
-const ContactList = ({ contacts }) => {
+const ContactList = ({ contacts, onDelete }) => {
   return (
     <div>
       <ul className={s.contactList}>
         {contacts.map((contact) => (
           <Contact
             key={contact.id}
+            id={contact.id}
             name={contact.name}
             number={contact.number}
+            onDelete={onDelete}
           />
         ))}
       </ul>

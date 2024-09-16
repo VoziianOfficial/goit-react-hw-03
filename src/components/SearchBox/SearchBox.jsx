@@ -3,7 +3,7 @@ import s from "./SearchBox.module.css";
 
 const SearchBox = ({ value, onFilter }) => {
   return (
-    <div>
+    <div className={s.searchContainer}>
       <p className={s.text}>Find contacts by name</p>
       <input
         className={s.input}
